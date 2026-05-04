@@ -1,0 +1,15 @@
+[
+  "magnitude",
+  "depth",
+  "depth_category",
+  "seismicity_rate_30d",
+  "seismicity_rate_7d",
+  "hour_of_day",
+  "month",
+  "lat_bin",
+  "lon_bin",
+  "is_myanmar_region",
+  "nearest_fault_km",
+  "is_near_fault",
+  "fault_pressure"
+]

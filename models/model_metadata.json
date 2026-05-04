@@ -1,0 +1,38 @@
+{
+  "model_type": "XGBoostClassifier",
+  "training_date": "2026-05-04T22:19:49.129106",
+  "trigger_min_mag": 4.5,
+  "aftershock_min_mag": 4.0,
+  "aftershock_hours": 72,
+  "aftershock_radius_km": 100,
+  "n_train_samples": 106212,
+  "n_test_samples": 14907,
+  "n_features": 13,
+  "feature_cols": [
+    "magnitude",
+    "depth",
+    "depth_category",
+    "seismicity_rate_30d",
+    "seismicity_rate_7d",
+    "hour_of_day",
+    "month",
+    "lat_bin",
+    "lon_bin",
+    "is_myanmar_region",
+    "nearest_fault_km",
+    "is_near_fault",
+    "fault_pressure"
+  ],
+  "selected_threshold": 0.42,
+  "metrics": {
+    "Accuracy": 0.7525323673442007,
+    "Precision": 0.7440863010137769,
+    "Recall": 0.7689724647414372,
+    "F1 Score": 0.7563247242222075,
+    "AUC-ROC": 0.8431544450242545,
+    "Cohen Kappa": 0.5050829461966037,
+    "Log Loss": 0.4695181802577207
+  },
+  "cv_auc_mean": 0.8445870570459671,
+  "cv_auc_std": 0.0029692059524746876
+}
