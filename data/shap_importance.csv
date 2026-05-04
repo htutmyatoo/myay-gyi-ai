@@ -1,0 +1,14 @@
+feature,importance
+seismicity_rate_7d,1.3158389
+seismicity_rate_30d,0.3653081
+depth,0.29404846
+magnitude,0.21210766
+nearest_fault_km,0.09417938
+lat_bin,0.07692313
+lon_bin,0.06748175
+fault_pressure,0.043653164
+depth_category,0.04246916
+hour_of_day,0.028925134
+month,0.023904556
+is_myanmar_region,0.0020986747
+is_near_fault,7.351138e-05
