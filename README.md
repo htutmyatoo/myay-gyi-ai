@@ -16,10 +16,8 @@ Real-time **seismic intelligence platform** built with **Streamlit** to monitor 
 
 ## 🖥️ Demo App
 <div align="center">
-  <a href="https://myay-gyi-ai-v1.streamlit.app/">
-    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Streamlit App">
-  </a>
+  <a href="https://myay-gyi-ai.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"></a>
+  <a href="https://colab.research.google.com/drive/1E1JfFw_pyPYZSytyZeXl2LJlsGPqt9MS?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Streamlit App"></a>
 </div>
 
 ![Global Demo](assets/global_demo.png)
@@ -90,14 +88,20 @@ Estimate the probability of a **M4.0+ aftershock within 72 hours** after a trigg
 
 ## 📂 Project Structure
 ```
-live-earthquake-monitor/
-│
-├── streamlit_app.py      # Main dashboard application
-├── requirements.txt      # Dependencies
-├── README.md             # Documentation
-├── LICENSE               # MIT License
-├── .gitignore
-└── assets/               # Screenshots & media
+myay-gyi-ai/
+    ├── .devcontainer/                           
+    ├── assets/                                  # Screenshots & Media
+    ├── data/                                    # Dataset and Evaluation Results
+    ├── models/                                  # Model and Metadata
+    ├── pages/
+    │   ├── 1_Predictor.py                       # Prediction Page
+    │   └── 2_Observability.py                   # Model Performance Page
+    ├── .gitignore
+    ├── Home.py                                  # Main Dashboard
+    ├── LICENSE
+    ├── Myay_Gyi_AI_Model_Development.ipynb      # Jupyter Notebook
+    ├── README.md
+    └── requirements.txt                         # Dependencies
 ```
 
 ## ⚙️ Installation & Local Setup
@@ -135,7 +139,7 @@ Open in your browser:
 http://localhost:8501
 ```
 
-## 🎯 Why This Product Matters
+## 🎯 Why Matters
 
 Most earthquake dashboards only display dots on a map.
 
