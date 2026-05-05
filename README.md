@@ -20,7 +20,7 @@ Real-time **seismic intelligence platform** built with **Streamlit** to monitor 
   <a href="https://colab.research.google.com/drive/1E1JfFw_pyPYZSytyZeXl2LJlsGPqt9MS?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Streamlit App"></a>
 </div>
 
-![Global Demo](assets/global_demo.png)
+![Demo](assets/home-page.png)
 
 > [!CAUTION]
 > Disclaimer: This tool is for educational and analytical purposes only. It is not an official emergency warning system. Always follow local authorities and seismic agencies during emergencies.
@@ -43,7 +43,7 @@ Designed for:
 
 Track real-time earthquakes from the **USGS GeoJSON API**.
 
-[![Myanmar Demo](assets/myanmar_demo.png)](https://myay-gyi-ai-v1.streamlit.app/)
+[![Dashboard Demo](assets/home-page-global-activity-analysis.png)](https://myay-gyi-ai.streamlit.app/)
 
 ### Includes:
 
@@ -59,7 +59,7 @@ Track real-time earthquakes from the **USGS GeoJSON API**.
 
 Estimate the probability of a **M4.0+ aftershock within 72 hours** after a triggering earthquake.
 
-[![Myanmar Demo](assets/myanmar_demo.png)](https://myay-gyi-ai-v1.streamlit.app/)
+[![Prediction Demo](assets/predictor-page.png)](https://myay-gyi-ai.streamlit.app/Predictor)
 
 ### Powered by:
 
