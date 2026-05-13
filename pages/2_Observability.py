@@ -123,7 +123,7 @@ else:
 
 ############################
 # 3. GLOBAL SHAP
-# data/global_shap.csv
+# data/shap_importance.csv
 ############################
 df_shap = load_csv(DATA_DIR / "shap_importance.csv")
 
@@ -136,7 +136,7 @@ else:
 
 ############################
 # 4. CONFUSION MATRIX
-# data/conf_matrix.csv
+# data/confusion_matrix.csv
 ############################
 df_cm = load_csv(DATA_DIR / "confusion_matrix.csv")
 
@@ -144,37 +144,6 @@ if not df_cm.empty:
     CONF_MATRIX = df_cm.values
 else:
     CONF_MATRIX = np.array([[0, 0], [0, 0]])
-
-############################
-# PLACEHOLDER MODEL METRICS
-# Replace these with real values from your trained model evaluation
-############################
-# PLACEHOLDER_METRICS = {
-#     "Accuracy":     0.7657992565055762,
-#     "Precision":    0.7058823529411765,
-#     "Recall":       0.5274725274725275,
-#     "F1 Score":     0.6037735849056604,
-#     "AUC-ROC":      0.8126311890356834,
-#     "Cohen Kappa":  0.4424411909853594,
-#     "Log Loss":     0.49771792530371506,
-# }
-
-# PLACEHOLDER_SHAP = {
-#     "Magnitude":         0.182,
-#     "Depth (km)":        0.141,
-#     "Seismicity rate":   0.113,
-#     "Fault zone":        0.082,
-#     "Hours since event": 0.061,
-#     "Region":            0.044,
-#     "Season":            0.021,
-# }
-
-# # Dummy ROC curve points (replace with real sklearn roc_curve output)
-# fpr_vals = np.array([0.0, 0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5, 0.6, 0.8, 1.0])
-# tpr_vals = np.array([0.0, 0.35, 0.55, 0.65, 0.73, 0.80, 0.86, 0.90, 0.93, 0.97, 1.0])
-
-# # Dummy confusion matrix (replace with real sklearn confusion_matrix output)
-# CONF_MATRIX = np.array([[1354, 246], [189, 711]])
 
 ############################
 # CHART BUILDERS
