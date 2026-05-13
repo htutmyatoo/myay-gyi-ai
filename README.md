@@ -39,7 +39,7 @@ Designed for:
 
 ## 🚀 Core Features
 
-### 📡 1. Live Earthquake Dashboard
+### 1. Live Earthquake Dashboard 📡
 
 Track real-time earthquakes from the **USGS GeoJSON API**.
 
@@ -55,7 +55,7 @@ Track real-time earthquakes from the **USGS GeoJSON API**.
 - 📊 Magnitude insights
 - 🔄 Auto-refresh every 10 minutes
 
-### 🔮 2. Aftershock Risk Predictor
+### 2. Aftershock Risk Predictor 🔮
 
 Estimate the probability of a **M4.0+ aftershock within 72 hours** after a triggering earthquake.
 
