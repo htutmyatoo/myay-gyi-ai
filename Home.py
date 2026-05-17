@@ -217,7 +217,6 @@ def last_quake_status(ts):
     elif hours < 6:  return "warning", label
     return "success", label
 
-
 def get_trend(df):
     """
     Compare event count in last 24h vs previous 24h.
@@ -244,7 +243,6 @@ def mag_icon(m):
     elif m >= 4: return "🟡"
     return "🟢"
 
-
 ############################
 # CHART FUNCTIONS
 ############################
@@ -269,7 +267,6 @@ def make_map(df, theme, myanmar):
         coloraxis_colorbar=dict(title="Mag", thickness=10, len=0.5)
     )
     return fig
-
 
 def make_timeline(df):
     """
@@ -298,7 +295,6 @@ def make_timeline(df):
         hovermode="x unified"
     )
     return fig
-
 
 def make_depth_scatter(df):
     """
@@ -398,6 +394,7 @@ with col_c:
     with st.container(height=655, border=False):
         df = rng(0).standard_normal((10, 1))
 
+        # Main dashboard elements
         tab1, tab2, tab3 = st.tabs([f"{view_mode}", "Magnitude Distribution", "Recent Events"])
 
         if df_f.empty:
@@ -427,10 +424,8 @@ with col_c:
             table["Type"]       = table["depth_category"].astype(str)
             tab3.dataframe(table[["Time","Location","Mag","Depth (km)","Type"]],
                         hide_index=True, use_container_width=True)
-            
-            ############################
-            # FEEDBACK (bottom of every page)
-            ############################
+
+            # Feedback Form
             with st.popover("💬 Give Feedback for Dashboard", width="stretch"):
                 rating   = st.feedback("stars", key="home_rating")
                 fb_text  = st.text_area("Any comments or suggestions?", height=80, key="home_fb_text")
