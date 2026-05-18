@@ -74,6 +74,12 @@ Estimate the probability of a **M4.0+ aftershock within 72 hours** after a trigg
 - Live recent earthquakes
 - Manual custom scenario testing
 
+## 🏛️ System Architecture
+<img src="assets/architecture-diagram.drawio.png" alt="System Architecture" width="60%">
+
+## 🔃 System Workflow
+<img src="assets/workflow-diagram.drawio.png" alt="System Workflow" width="55%">
+
 ## 🛠 Tech Stack
 
 | Layer | Tools |
